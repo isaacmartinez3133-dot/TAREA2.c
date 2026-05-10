@@ -1,17 +1,25 @@
 #include <stdio.h>
 
-int main()
-{
-    double res, a;
-    int cont;
-
-    printf("Ingrese un numero:\n");
-    scanf("%lf", &a);
-    for(cont = 1; cont <= 10; cont++)
+int main() {
+    int a, b; 
+    printf("Dame dos valores enteros de a y b\n");
+    printf("a: ");
+    scanf("%d", &a);
+    printf("b; ");
+    scanf("%d", &b);
+    if (b==0)
+    { 
+        printf("No se puede dividir entre cero");
+    }
+    else 
+    { 
+        if (a % b == 0)
         {
-            res = a * cont;
-            printf("%lf x %d = %lf\n", a, cont, res);
+            printf("El número %d es divisor de %d\n", b, a); 
         }
-
-    return 0;
+        else
+        {
+             printf("El número %d no es divisor de %d\n", b, a);
+        }
+    }
 }
