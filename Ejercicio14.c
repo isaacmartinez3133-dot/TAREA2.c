@@ -16,5 +16,5 @@ void main ()
             buscador = buscador + 1;
         }
     }
-    printf("El numero de veces que esta el numero %d es la cantidad de %d veces", xd, buscador);
+    printf("El numero de veces que esta el numero %d en el arreglo es la cantidad de %d veces", xd, buscador);
 }
