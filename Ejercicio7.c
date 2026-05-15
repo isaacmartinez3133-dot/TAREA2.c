@@ -5,7 +5,7 @@ int main() {
     float KmRecorridos;
     double CostoDeBoleto;
     printf("Bienvenido\n");
-    printf("Cuanto durará su estancia: \n");
+    printf("Cuantos dias durará su estancia: \n");
     scanf("%d", &DiasDeEstancia);
     printf("Cuantos kilometros recorrera en el viaje de ida: \n");
     scanf("%f", &KmRecorridos);
